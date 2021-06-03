@@ -61,6 +61,6 @@
 
 .chart__bar {
     background: var(--primary);
-    flex: auto;
+    flex-grow: 1;
     margin: 0 1px;
 }
