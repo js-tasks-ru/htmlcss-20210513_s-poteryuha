@@ -1,0 +1,60 @@
+.skeleton {
+    background: var(--white);
+    border: 1px solid var(--grey-3);
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 24px 24px 32px;
+}
+
+.skeleton__header {
+    display: flex;
+    width: 100%;
+}
+
+.skeleton__title {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 0 0 0 16px;
+    align-self: center;
+}
+
+.skeleton__content {
+    margin: 32px 0 0;
+}
+
+.skeleton__logo {
+    background: var(--grey-2);
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.skeleton__stripe {
+    background: linear-gradient(
+        92.51deg,
+        #dde2e5 6.44%,
+        #e2e6e8 38.47%,
+        #f3f5f5 56.48%,
+        #e3e7ea 77.5%,
+        #dde2e5 102.52%
+    );
+    height: 20px;
+    margin: 0 0 8px;
+}
+
+.skeleton__stripe:last-child {
+    margin: 0;
+}
+
+.skeleton__stripe_lg {
+    width: 100%;
+}
+
+.skeleton__stripe_md {
+    width: calc((100% + 64px + 16px) * 0.5);
+}
+
+.skeleton__stripe_sm {
+    width: calc((100% + 64px + 16px) * 0.33);
+}
