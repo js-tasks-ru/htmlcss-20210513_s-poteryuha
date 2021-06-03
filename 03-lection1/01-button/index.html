@@ -2,10 +2,63 @@
 <!-- Страница с кнопкой -->
 <html lang="ru">
     <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./button.css">
+        <link rel="stylesheet" href="../../assets/css/normalize.css" />
+        <link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="./button.css" />
+        <style>
+            body {
+                margin: 2.5rem;;
+            }
+            .preview {
+                display: flex;
+                justify-content: center;
+                gap: 1rem;
+            }
+            .preview__column {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+            }
+        </style>
     </head>
     <body>
+        <h1>Button</h1>
+        <section class="preview">
+            <div class="preview__column">
+                <button class="button button_primary button_width-base">
+                    Primary
+                </button>
+                <button
+                    disabled
+                    class="button button_primary button_width-base"
+                >
+                    Primary
+                </button>
+            </div>
 
+            <div class="preview__column">
+                <button class="button button_secondary button_width-base">
+                    Secondary
+                </button>
+                <button
+                    disabled
+                    class="button button_secondary button_width-base"
+                >
+                    Secondary
+                </button>
+            </div>
+
+            <div class="preview__column">
+                <button class="button button_alternate button_width-base">
+                    Alternate
+                </button>
+                <button
+                    disabled
+                    class="button button_alternate button_width-base"
+                >
+                    Alternate
+                </button>
+            </div>
+        </div>
     </body>
 </html>

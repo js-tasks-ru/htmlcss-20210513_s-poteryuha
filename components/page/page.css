@@ -1,0 +1,50 @@
+.page {
+}
+
+.page__content-box {
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+.header {
+    background-color: var(--white);
+    padding: 96px 0 77px;
+}
+
+.header__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 64px;
+    color: var(--black);
+}
+
+.main {
+    background-color: var(--grey-1);
+    height: 1036px;
+}
+
+.footer {
+    background-color: var(--white);
+    text-align: center;
+    padding: 72px 0 136px;
+}
+
+.footer__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+    color: var(--black);
+}
+
+.footer__description {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+}
